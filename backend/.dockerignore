@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Allow specific files
+!pyproject.toml
+!uv.lock
+!app/
+!alembic.ini
+!alembic/
+!scripts/
+!static/
+!swagger/
+
+# Development files to ignore
+.env
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.egg-info
+*.sqlite
+*.db
